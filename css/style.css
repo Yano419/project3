@@ -1,0 +1,160 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    min-width: 1200px;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    overflow: hidden;
+    background: rgba(64, 54, 48, 0.9);
+    position: fixed; 
+    z-index: 10;
+    top: 0; 
+    width: 100%;
+    height: auto;
+}
+
+.navbar a {
+    margin-left: auto;
+    display: block;
+    color: #D9CBBA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.navbar a + a {
+    margin-left: 0.1em;
+}
+
+.navbar a:hover {
+    color: #B1BF45;
+}
+
+.main {
+    width: 1440px;
+}
+
+#page1 {
+    background-image: url('../css/img/01.png');
+    background-size: cover;
+    background-position: center;
+    height: 1024px;
+    width: 100%;
+}
+
+#page1 h1 {
+    color: #403630;
+    text-align: center; 
+    font-size: 96px; 
+    -webkit-text-stroke: 3px #F2F2F2; 
+    position: relative; 
+    top: 50%;
+}
+
+#profile {
+    display: flex; 
+    margin: 219px 47px 186px 90px;
+}
+
+.prof-image {
+    height: 535px;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    margin-right: 106px;
+}
+
+.profile-line {
+    border: 1px solid #B1BF45;
+    height: 535px;
+    background-color: #B1BF45;
+    margin-right: 27px;
+}
+
+.text-container {
+    flex: 1;
+    align-self: flex-start;
+    margin-right: 47px;
+    margin-top: 144px;
+}
+
+.bio {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+}
+
+/* .name {
+    margin-bottom: 75px;
+} */
+
+#works-container {
+    /* display: flex; 
+    flex-wrap: wrap */
+    width: 800px;
+    margin: auto;
+}
+
+#works-container img {
+    width: 300px;
+    height: 216px;
+    flex: 0 0 auto;
+}
+
+.works-line {
+    border: 1px solid #B1BF45;
+    margin: 0 40px;
+    height: 216px;
+    /* height: 535px; */
+    background-color: #B1BF45;
+}
+
+.works-text {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.work-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    /* align-items: center; */
+}
+
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+#work1 {
+    display: flex;
+}
+
+#work2 {
+    display: flex; 
+    margin: 40px 0;
+}
+
+#work3 {
+    display: flex; 
+}
